@@ -22,6 +22,9 @@ config/xml/*.xml
 *sitemap.xml
 themes/*/cache/
 modules/*/config*.xml
+assets/*
+node_modules
+
 
 # Site content
 # The following folders contain product images, virtual products, CSV's, etc.
@@ -32,3 +35,7 @@ admin-dev/import/
 download/
 /img/*
 upload/
+
+.DS_Store
+
+.idea
